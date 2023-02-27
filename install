@@ -1,6 +1,6 @@
 #!/bin/bash
-read -p "Enter API key: " apikey
-sed -i "s/apikey=.*/apikey=\"$apikey\"/" gpt
 cp gpt /usr/bin
 chmod +x /usr/bin/gpt
+read -p "Open AI API key: " apikey
+sed -i "s/apikey=.*/apikey=\"$apikey\"/" /usr/bin/gpt
 echo "Install done"
