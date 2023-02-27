@@ -1,0 +1,23 @@
+#!/bin/bash
+
+prompt="$1"
+apikey="sk-019WNYuZywV4WpXDGmz2T300000000000"
+
+
+headers=(
+  "Authorization: Bearer $apikey"
+  "Content-Type: application/json"
+)
+
+data='{
+  "prompt": "'"$prompt"'",
+  "max_tokens": 200,
+  "temperature": 0.9,
+  "frequency_penalty": 0.5
+}'
+
+response=$(curl -s -X POST -H "${headers[0]}" -H "${headers[1]}" -d "$data" https://api.openai.com/v1/engines/text-davinci-003/completions)
+
+completion_text=$(echo "$response" | jq -r '.choices[0].text')
+
+echo "$completion_text"
