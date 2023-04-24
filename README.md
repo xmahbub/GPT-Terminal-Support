@@ -1,9 +1,13 @@
 <h1 align="center">
  GPT Terminal
 </h1>
+
 # Clone the repo
 ```
 git clone https://github.com/xmahbub/GPT-Terminal-Support.git
+```
+# Go to GPT-Terminal-Support
+```
 cd GPT-Terminal-Support
 ```
 
