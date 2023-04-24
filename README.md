@@ -1,5 +1,5 @@
 <p align="center">
- <h1>GPT Terminal</h1>
+ GPT Terminal
 </p>
 
 <p align="center">
