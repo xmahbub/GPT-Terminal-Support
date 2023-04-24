@@ -17,7 +17,7 @@ chmod +x install
 ```
 # Install the application
 ```
-./install
+sudo ./install
 ```
 # Use 
 ```
