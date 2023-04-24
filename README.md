@@ -2,9 +2,11 @@
  GPT Terminal
 </h1>
 
+# Give file excute privilege
 ```
 chmod +x install
 ```
+# Install the application
 ```
 ./install
 ```
