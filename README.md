@@ -1,6 +1,6 @@
-<p align="center">
+<h1 align="center">
  GPT Terminal
-</p>
+</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xmahbub/GPT-Terminal-Support/main/gpt.png" width=100% height=100%>
