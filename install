@@ -1,29 +1,4 @@
 #!/bin/bash
-
-if command -v lsb_release > /dev/null; then
-  # Get the distribution's package manager
-  package_manager=$(lsb_release -si | tr '[:upper:]' '[:lower:]')
-
-  case $package_manager in
-    "ubuntu" | "debian")
-      # Install jq using apt-get
-      apt-get update
-      apt-get install -y jq
-      ;;
-    "centos" | "rhel" | "fedora")
-      # Install jq using yum
-      yum install -y jq
-      ;;
-    *)
-      echo "Unsupported distribution: $package_manager"
-      exit 1
-      ;;
-  esac
-else
-  echo "lsb_release command not found, can't determine package manager"
-  exit 1
-fi
-
 cp gpt /usr/bin
 chmod +x /usr/bin/gpt
 read -p "Open AI API key: " apikey
