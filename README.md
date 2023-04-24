@@ -2,7 +2,7 @@
  GPT Terminal
 </h1>
 
-# Give file excute privilege
+# Give file execute privilege
 ```
 chmod +x install
 ```
@@ -10,7 +10,10 @@ chmod +x install
 ```
 ./install
 ```
-
+# Use 
+```
+gpt "hello ...your search"
+```
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xmahbub/GPT-Terminal-Support/main/gpt.png" width=100% height=100%>
