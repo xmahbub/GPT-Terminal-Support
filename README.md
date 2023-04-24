@@ -14,13 +14,13 @@ chmod +x install
 ```
 gpt "hello ...your search"
 ```
-## Note: jq is required
+# Note: jq is required
 
-# Ubuntu
+## Ubuntu
 ```
 apt install jq
 ```
-# RedHat
+## RedHat
 ```
 yum install jq
 ```
