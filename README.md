@@ -2,10 +2,10 @@
  GPT Terminal
 </h1>
 
-'''chmod +x install
-'''
-'''./install
-'''
+```chmod +x install
+```
+```./install
+```
 
 
 <p align="center">
