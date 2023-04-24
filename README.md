@@ -25,11 +25,11 @@ gpt "hello ...your search"
 ```
 # Note: jq is required
 
-## Ubuntu
+## If Ubuntu
 ```
 apt install jq
 ```
-## RedHat
+## If RedHat
 ```
 yum install jq
 ```
