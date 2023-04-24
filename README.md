@@ -1,11 +1,10 @@
 <h1 align="center">
  GPT Terminal
 </h1>
+
+'''chmod +x install
 '''
-chmod +x install
-'''
-'''
-./install
+'''./install
 '''
 
 
