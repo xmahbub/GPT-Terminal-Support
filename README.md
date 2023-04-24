@@ -1,8 +1,13 @@
 <h1 align="center">
  GPT Terminal
 </h1>
+# Clone the repo
+```
+git clone https://github.com/xmahbub/GPT-Terminal-Support.git
+cd GPT-Terminal-Support
+```
 
-# Give file execute privilege
+# Give install file execute privilege
 ```
 chmod +x install
 ```
